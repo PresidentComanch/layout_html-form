@@ -1,13 +1,14 @@
 /* styles go here */
-.form-field:not(:first-of-type) {
-  margin: 10px 0;
+.form-field {
+  margin-bottom: 10px;
 }
 
-.fieldsets:not(:first-of-type) {
-  margin: 20px 0 0;
+.form-field1 {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.fieldsets {
+  margin-bottom: 20px;
   padding-bottom: 0;
-}
-
-.but {
-  margin-top: 20px;
 }
