@@ -12,9 +12,9 @@
   </head>
   <body>
     <form
-    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="POST"
-    onsubmit="onSubmit()"
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="POST"
+      onsubmit="onSubmit()"
     >
       <!-- Personal information -->
       <fieldset class="fieldsets">
@@ -62,7 +62,11 @@
           <label for="birthday">
             Full date of birth:
           </label>
-          <input type="date" id="birthday">
+          <input
+            type="date"
+            name="birthday"
+            id="birthday"
+          >
         </div>
         <div>
           <label for="accept" class="form-field1">
@@ -122,14 +126,18 @@
             id="yescat"
             value="yes"
           >
-          <label for="yescat">Yes</label>
+          <label for="yescat">
+            Yes
+          </label>
           <input
             type="radio"
             name="cats"
             id="nocat"
             value="no"
           >
-          <label for="nocat">No</label>
+          <label for="nocat">
+            No
+          </label>
         </div>
         <div class="form-field">
           <label for="choosecolor">
@@ -144,7 +152,7 @@
         </div>
         <div class="form-field">
           <label for="go2bed">
-          What time do you go to bed?
+            What time do you go to bed?
           </label>
           <input
             type="time"
@@ -154,21 +162,27 @@
         </div>
         <div class="form-field">
           <label for="carbrand">
-          What are your favorite brand of cars?
+            What are your favorite brand of cars?
           </label>
           <select
             name="carbrand"
             id="carbrand"
             multiple
           >
-            <option value="bmw">BMW</option>
-            <option value="audi">Audi</option>
-            <option value="lada">Lada</option>
+            <option value="bmw">
+              BMW
+            </option>
+            <option value="audi">
+              Audi
+            </option>
+            <option value="lada">
+              Lada
+            </option>
           </select>
         </div>
         <div class="form-field">
           <label for="rangelovework">
-          How do you rate our work?
+            How do you rate our work?
           </label>
           <input
             type="range"
@@ -180,22 +194,26 @@
       </fieldset>
       <!-- Additional info: -->
       <fieldset class="fieldsets">
-        <legend>Additional info:</legend>
+        <legend>
+          Additional info:
+        </legend>
         <div class="form-field">
           <label for="comments">
-          Comments:
+            Comments:
           </label>
-          <textarea name="comments"
-          id="comments">
-          </textarea>
+          <textarea name="comments" id="comments"></textarea>
         </div>
         <div class="form-field">
           <label for="reccomend">
-          Would you recommend us?
+            Would you recommend us?
           </label>
           <select name="recc" id="reccomend">
-            <option value="yes">yes</option>
-            <option value="no">no</option>
+            <option value="yes">
+              yes
+            </option>
+            <option value="no">
+              no
+            </option>
           </select>
         </div>
       </fieldset>
